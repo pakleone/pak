@@ -1,0 +1,239 @@
+*{
+	font-family: sans-serif;
+	/*border: #000 solid 1px;*/
+	margin: 0;
+}
+
+#logo{
+	text-align: center ;
+	padding-bottom: 30px;
+	border-bottom: 1px solid;
+}
+
+#menu li{
+		list-style: none;
+		display: inline-block;
+		text-align: center;
+		border-right: 1px solid #000;
+		
+		padding-right: 50px;
+		margin-left: 40px;
+		
+		
+
+}
+
+#menu a{
+	text-decoration: none;
+	color: #ddd;
+}
+
+#menu li:first-child a{ 
+	color: black;
+}
+
+#menu li:last-child{
+	border-color: white;
+}
+
+#menu ul{
+	width: 800px;
+	margin: 10px auto;
+	padding-left: 0;
+
+}
+
+header{
+	text-align: center;
+}
+
+main{
+	width: 810px;
+	
+	margin: 0 auto;
+	
+	
+}
+
+aside{
+	float: right;
+	width: 300px;
+	
+	
+}
+
+section{
+	text-align: left;
+	width: 500px;
+	margin-left: 20px;
+	
+	
+}
+
+
+
+#lateral{
+	background-color: lightgrey;
+	width: 245px;
+	height: 250px;
+	position: relative;
+}
+
+#lateral h4{
+	color: white;
+	font-size: 1.1em;
+	padding: 30px 30px;
+}
+
+#lateral p{
+	text-align: justify;
+	padding: 0 20px;
+	font-size: 0.9em;
+	
+	padding-bottom: 30px;
+}
+#borda{
+	border-top: 1px solid #fff;
+	margin: 0 auto;
+	width: 210px;
+}
+#lateral a{
+	color: white;
+	position: absolute;
+	bottom: 30px;
+	left: 20px;
+	font-size: 0.9em;
+	text-decoration: none;
+
+}
+
+#lateral a:after{
+	content: ">";
+	color: black;
+	float: left;
+}
+
+#imagem{
+	width: 245px;
+	margin-top: 5px;
+	
+}
+
+#informacoes{
+	background-color: lightgrey;
+	width: 245px;
+	height: 90px;
+}
+
+#informacoes h4{
+	color: white;
+	text-align: center;
+	font-size: 1em;
+	padding: 20px 10px 0 10px;
+	border-bottom: 1px solid #fff;
+}
+
+#informacoes h5{
+	color: black;
+	text-align: center;
+	font-size: 1em;
+	padding-top: 10px;
+	
+	
+
+	
+}
+
+
+
+section h2{
+	background-color: black;
+	color: white;
+	height: 30px;
+	text-align: center;
+	padding-top: 10px;	
+	font-size: 1.2em;
+}
+
+.fig2{
+	float: left;
+	
+	padding-bottom: 30px;
+}
+
+
+
+footer{
+	clear: both;
+	margin: 0;
+	border-top: 1px solid #1b1b1b;
+	text-align: center;
+	position: absolute;
+	bottom: -200px;
+	left: 300px;
+}
+footer h4{
+	
+	border: 1px solid;
+	font-size: 0.7em;
+	font-weight: normal;
+	width: 300px;
+	margin-left: 285px;
+	
+
+	
+}
+
+footer span{
+	text-decoration: underline;
+}
+
+#menu-final ul{
+	clear: left;
+	list-style: none;
+	display: inline-block;
+	text-align: center;	
+	
+	padding-left: 0;
+	text-align: center;
+
+
+	
+
+
+}
+
+#menu-final li{
+		list-style: none;
+		display: inline-block;
+		text-align: center;		
+		font-size: 0.7em;
+		font-weight: normal;
+		border-right: 1px solid;
+		padding-right: 80px;
+		
+		
+}	
+
+#menu-final:first-child{
+	padding-right: 0;
+}
+		
+
+#menu-final li:last-child{
+	border-color: white;
+	padding-left: 0;
+	
+}
+
+
+/*nav{
+	border-top: 1px solid;
+	
+}
+
+body{
+	margin: 0;
+
+	font-family: "Tahoma";
+}*/
